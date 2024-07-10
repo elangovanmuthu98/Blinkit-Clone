@@ -145,3 +145,48 @@ footer{
 table{
     width: 100%;
 }
+
+@media screen and (max-width:480px) {
+
+   nav{
+    flex-direction:column !important;
+    gap: 10px;
+   text-align: center;
+   margin: auto;
+   } 
+   .nav-delivery{
+
+    text-align:center ;
+   }
+   .vertical-line{
+    display: none;
+   }
+   #search{
+    width: 100%;
+   }
+   #hero_section{
+    display: none !important;
+   }
+   #big_cards{
+    margin-top: 20px;
+   }
+   #footer_r1{
+    display: flex;
+    flex-direction: column;
+
+   }
+   #footer_r2{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+   }
+   #para_r2{
+    width: 100% !important;
+    text-align: justify;
+
+   }
+   #footer_r3{
+    text-align: justify;
+   }
+
+}
